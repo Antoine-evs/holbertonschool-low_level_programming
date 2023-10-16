@@ -16,9 +16,11 @@ void print_to_98(int n)
 	}
 	while (n <= 98)
 	{
-		_putchar(abs(n) + '0');
+		if (n < 0)
+			_putchar((n * - 1) +'0')
+		_putchar(n + '0');
 		_putchar(',');
-		_puthar(' ');
+		_putchar(' ');
 		n++;
 	}
 }
