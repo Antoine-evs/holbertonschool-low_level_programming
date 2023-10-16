@@ -1,9 +1,8 @@
 #include "main.h"
 /**
  * times_table - print times tables 0-9
- * @n : int to get last digit from
  *
- * Return: void 
+ * Return: void
  */
 
 void times_table(void)
