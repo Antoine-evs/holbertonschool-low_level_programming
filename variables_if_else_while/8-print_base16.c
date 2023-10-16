@@ -12,4 +12,5 @@ int main(void)
 	i = 0;
 	while (base16[i])
 		putchar(base16[i++]);
+	return (0);
 }
