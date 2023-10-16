@@ -1,12 +1,12 @@
 #include "main.h"
 /**
- * times_table - print times tables 0-9
+ * times_tables - print times tables 0-9
  * @n : int to get last digit from
  *
  * Return: void 
  */
 
-void times_table(void)
+void times_tables(void)
 {
 	char *ttables;
 	int i;
@@ -24,7 +24,6 @@ void times_table(void)
 	i = 0;
 	while (ttables[i])
 	{
-		putchar(ttables[i++]);
+		_putchar(ttables[i++]);
 	}
-	return (0);
 }
