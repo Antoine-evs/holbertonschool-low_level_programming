@@ -1,3 +1,4 @@
+#include "MAIN.H"
 void print_alphabet(void)
 {
 	char c;
