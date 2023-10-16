@@ -1,0 +1,15 @@
+#include "main.h"
+/**
+ * print_last_digit - print last digit
+ * @n : int to get last digit from
+ *
+ * Return: last digit of n
+ */
+
+int print_last_digit(int n)
+{
+	while (n > 10 || (n < -10))
+		n %= 10;
+	_putchar(n + '0');
+	return (n);
+}
