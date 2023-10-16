@@ -7,5 +7,5 @@ void print_alphabet(void)
 	c = 'a';
 	while (c <= 'z')
 		_putchar(c++);
-	_putchqr('\n');
+	_putchar('\n');
 }
