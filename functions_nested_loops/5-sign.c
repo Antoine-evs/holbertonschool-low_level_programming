@@ -1,11 +1,10 @@
 #include "main.h"
 /**
- * _islower - is char lowercase
+ * print_sign - is n pos, neg or 0
  * @n : int to evaluate
  *
  * Return: 1 if +, -1 if -, 0 if 0
  */
-
 int print_sign(int n)
 {
 	if (n > 0)
